@@ -16,3 +16,5 @@ Uitlize -D pra instalar como dependencia de desenvolvimento
 ## Cria arquivo de configuração do typescript
  npx tsc --init
  
+## instalar pacote express pra node
+npm install @types/express
