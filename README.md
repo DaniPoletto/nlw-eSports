@@ -18,3 +18,7 @@ Uitlize -D pra instalar como dependencia de desenvolvimento
  
 ## instalar pacote express pra node
 npm install @types/express -D
+
+npm i ts-node-dev -D
+
+npm create vite@latest
