@@ -10,3 +10,5 @@ npm install express
 
 ## Instalar typescript
 npm i typescript
+
+Uitlize -D pra instalar como dependencia de desenvolvimento
