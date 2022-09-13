@@ -1,35 +1,44 @@
-# nwl-e-sports
+# Next Level Week - eSports - 2022
 
+Esse projeto foi desenvolvido durante a [next level week](https://lp.rocketseat.com.br/nlw) promovida pela Rocketseat. Durante uma semana é lançada 1 aula por dia com o intuito de desenvolver uma aplicação web e mobile.
+
+# Tecnologias usadas
+- React
+- React Native
+- NodeJS
+
+## Recomendação
 Usar o PowerShell no windows.
 
 ## Inicializa o json do npm
-npm init -y
+``npm init -y``
 
 ## Instalar express (microfamework)
-npm install express
+``npm install express``
 
 ## Instalar typescript
-npm i typescript
+``npm i typescript``
 
 Uitlize -D pra instalar como dependencia de desenvolvimento
 
 ## Cria arquivo de configuração do typescript
- npx tsc --init
+``npx tsc --init``
  
 ## instalar pacote express pra node
-npm install @types/express -D
+``npm install @types/express -D``
 
-npm i ts-node-dev -D
+``npm i ts-node-dev -D``
 
-npm create vite@latest
+``npm create vite@latest``
 
 Rodar no cmd
 ## Instalar Expo
- npm install --global expo-cli
+``npm install --global expo-cli``
 
-expo init mobile
+## Inicializar projeto mobile usando o expo
+``expo init mobile``
 
-Instalar o expo no celular
+Instalar o aplicativo expo no celular, assim é possivel testar escaneando um qrcode.
 
-Rodar aplicação mobile
-expo start
+## Rodar aplicação mobile
+``expo start``
