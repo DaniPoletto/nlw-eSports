@@ -32,4 +32,4 @@ expo init mobile
 Instalar o expo no celular
 
 Rodar aplicação mobile
-npm start
+expo start
