@@ -45,4 +45,4 @@ Instalar o aplicativo expo no celular, assim é possivel testar escaneando um qr
 
 ## instalar Taiwling css
 ```npm install -D tailwindcss postcss autoprefixer```
-```npx tailwindcss init```
+```npx tailwindcss init -p```
