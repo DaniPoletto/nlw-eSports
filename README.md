@@ -22,3 +22,6 @@ npm install @types/express -D
 npm i ts-node-dev -D
 
 npm create vite@latest
+
+## Instalar Expo
+ npm install --global expo-cli
