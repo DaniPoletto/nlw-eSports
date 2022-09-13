@@ -23,5 +23,8 @@ npm i ts-node-dev -D
 
 npm create vite@latest
 
+Rodar no cmd
 ## Instalar Expo
  npm install --global expo-cli
+
+expo init mobile
