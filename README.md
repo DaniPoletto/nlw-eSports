@@ -52,3 +52,7 @@ Instalar o aplicativo expo no celular, assim é possivel testar escaneando um qr
 
 https://reactnavigation.org/
 expo install react-native-screens react-native-safe-area-context
+
+https://docs.expo.dev/versions/latest/sdk/linear-gradient/
+
+
