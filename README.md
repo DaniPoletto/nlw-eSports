@@ -46,3 +46,6 @@ Instalar o aplicativo expo no celular, assim é possivel testar escaneando um qr
 ## instalar Taiwling css
 ```npm install -D tailwindcss postcss autoprefixer```
 ```npx tailwindcss init -p```
+
+## Google fonts
+```npx expo install expo-font @expo-google-fonts/inter```
