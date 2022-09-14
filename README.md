@@ -49,3 +49,6 @@ Instalar o aplicativo expo no celular, assim é possivel testar escaneando um qr
 
 ## Google fonts
 ```expo install expo-font @expo-google-fonts/inter```
+
+https://reactnavigation.org/
+
