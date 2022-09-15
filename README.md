@@ -69,3 +69,5 @@ https://www.prisma.io/
 ```npm i @prisma/client```
 
 ```npm i cors```
+
+``npm i @types/cors -D`` 
