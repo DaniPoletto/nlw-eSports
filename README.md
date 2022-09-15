@@ -56,3 +56,6 @@ expo install react-native-screens react-native-safe-area-context
 https://docs.expo.dev/versions/latest/sdk/linear-gradient/
 expo install expo-linear-gradient
 
+## Instalar prisma ORM
+https://www.prisma.io/
+```npm i prisma -D```
