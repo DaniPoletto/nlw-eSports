@@ -65,3 +65,5 @@ https://www.prisma.io/
 ``npx prisma migrate dev```
 
 ```npx prisma studio```
+
+```npm i @prisma/client```
