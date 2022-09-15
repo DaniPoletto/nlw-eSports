@@ -59,3 +59,5 @@ expo install expo-linear-gradient
 ## Instalar prisma ORM
 https://www.prisma.io/
 ```npm i prisma -D```
+
+```npx prisma init --datasource-provider sqlite ```
