@@ -64,3 +64,4 @@ https://www.prisma.io/
 
 ``npx prisma migrate dev```
 
+```npx prisma studio```
