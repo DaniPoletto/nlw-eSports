@@ -67,3 +67,5 @@ https://www.prisma.io/
 ```npx prisma studio```
 
 ```npm i @prisma/client```
+
+```npm i cors```
