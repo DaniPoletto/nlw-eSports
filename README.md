@@ -71,3 +71,7 @@ https://www.prisma.io/
 ```npm i cors```
 
 ``npm i @types/cors -D`` 
+
+https://www.radix-ui.com/docs/primitives/components/dialog
+npm install @radix-ui/react-dialog
+
