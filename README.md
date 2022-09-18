@@ -80,3 +80,4 @@ achar ip ipconfig
 
 https://reactnavigation.org/
 npm install @react-navigation/native
+expo install react-native-screens
