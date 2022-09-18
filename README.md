@@ -77,3 +77,5 @@ npm install @radix-ui/react-dialog
 
 mobile
 achar ip ipconfig
+
+https://reactnavigation.org/
