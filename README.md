@@ -75,3 +75,5 @@ https://www.prisma.io/
 https://www.radix-ui.com/docs/primitives/components/dialog
 npm install @radix-ui/react-dialog
 
+mobile
+achar ip ipconfig
