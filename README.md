@@ -1,84 +1,79 @@
 # Next Level Week - eSports - 2022
 
-Esse projeto foi desenvolvido durante a [next level week](https://lp.rocketseat.com.br/nlw) promovida pela Rocketseat. Durante uma semana é lançada 1 aula por dia com o intuito de desenvolver uma aplicação web e mobile.
+Esse projeto foi desenvolvido durante a [next level week](https://lp.rocketseat.com.br/nlw) promovida pela Rocketseat. Durante uma semana é lançada 1 aula por dia com o intuito de desenvolver uma aplicação web e mobile. Neste projeto é apresentada a API criada durante o evento. 
 
 # Tecnologias usadas
-- React
-- React Native
 - NodeJS
+- Sqlite
 
-## Recomendação
-Usar o PowerShell no windows.
+# Inicialização
 
-## Inicializa o json do npm
-``npm init -y``
+1) Instalar dependencias
+```
+npm install
+```
 
-## Instalar express (microfamework)
-``npm install express``
+2) Subir servidor
+Na pasta server:
+```
+npm run dev
+```
 
-## Instalar typescript
-``npm i typescript``
+# Rotas
+## Retornar discord apartir de anúncio
 
-Uitlize -D pra instalar como dependencia de desenvolvimento
+## Criar anúncio
 
-## Cria arquivo de configuração do typescript
-``npx tsc --init``
+## Listar jogos
+
+## Listar anúncios por jogos
  
-## instalar pacote express pra node
-``npm install @types/express -D``
+## Instalar pacote express pra node
+```
+npm install @types/express -D
+```
 
-``npm i ts-node-dev -D``
+```
+npm i ts-node-dev -D
+```
 
-``npm create vite@latest``
+```
+npm create vite@latest
+```
 
-Rodar no cmd
-## Instalar Expo
-``npm install --global expo-cli``
+## Prisma ORM
+### Instalar prisma ORM
 
-## Inicializar projeto mobile usando o expo
-``expo init mobile``
+> https://www.prisma.io/
 
-Instalar o aplicativo expo no celular, assim é possivel testar escaneando um qrcode.
+```
+npm i prisma -D
+```
 
-## Rodar aplicação mobile
-``expo start``
+### Criar banco com sqlite
+```
+npx prisma init --datasource-provider sqlite 
+```
 
-## instalar Taiwling css
-```npm install -D tailwindcss postcss autoprefixer```
-```npx tailwindcss init -p```
+### Rodar migrations
+```
+npx prisma migrate dev
+```
 
-## Google fonts
-```expo install expo-font @expo-google-fonts/inter```
+### Abrir painel prisma
+```
+npx prisma studio
+```
 
-https://reactnavigation.org/
-expo install react-native-screens react-native-safe-area-context
+### Algumas instalações necessárias
+```
+npm i @prisma/client
+```
 
-https://docs.expo.dev/versions/latest/sdk/linear-gradient/
-expo install expo-linear-gradient
+```
+npm i cors
+```
 
-## Instalar prisma ORM
-https://www.prisma.io/
-```npm i prisma -D```
-
-```npx prisma init --datasource-provider sqlite ```
-
-``npx prisma migrate dev```
-
-```npx prisma studio```
-
-```npm i @prisma/client```
-
-```npm i cors```
-
-``npm i @types/cors -D`` 
-
-https://www.radix-ui.com/docs/primitives/components/dialog
-npm install @radix-ui/react-dialog
-
-mobile
-achar ip ipconfig
-
-https://reactnavigation.org/
-npm install @react-navigation/native
-expo install react-native-screens
-npm install @react-navigation/native-stack
+```
+npm i @types/cors -D
+``` 
