@@ -28,10 +28,39 @@ npm run dev
 ![Imagem](https://github.com/DaniPoletto/nlw-eSports/blob/main/get_discord_by_ad.jpg)
 
 ## Criar anúncio
+#### Cadastrar um anúncio em um jogo
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|POST | /games/{id}/ads | Cadastrar um anúncio | <pre>{<br>"name": "Daniela",<br>"yearsPlaying": 2,<br>"discord": "DaniP",<br>"weekDays": [0,5,6],<br>"hourStart": "12:00",<br>"hourEnd": "18:00",<br>"useVoiceChannel": true<br>}</pre> | - |
+
+##### Campos
+
+| Nome | Tipo | Descrição | 
+| --- | --- | --- | 
+|titulo | string | Obrigatório | 
+|name | string | Obrigatório | 
+|yearsPlaying | int | Obrigatório | 
+|discord | string | Obrigatório | 
+|weekDays | array de inteiros | Obrigatório | 
+|hourStart | string | Obrigatório | 
+|hourEnd | string | Obrigatório | 
+|useVoiceChannel | bool | Obrigatório | 
+
+![Imagem](https://github.com/DaniPoletto/nlw-eSports/blob/main/create_ad.jpg)
 
 ## Listar jogos
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|GET | /games | Retornar todos os jogos | - | - |
+
+![Imagem](https://github.com/DaniPoletto/nlw-eSports/blob/main/list_games.jpg)
 
 ## Listar anúncios por jogos
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|GET | /games/{id}/ads | Retornar anúncios por jogo | - | - |
+
+![Imagem](https://github.com/DaniPoletto/nlw-eSports/blob/main/list_ads_by_game.jpg)
  
 ## Instalar pacote express pra node
 ```
