@@ -21,6 +21,11 @@ npm run dev
 
 # Rotas
 ## Retornar discord apartir de anúncio
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|GET | ads/{id}/discord | Retornar discord apartir do id do anuncio | - | - |
+
+![Imagem](https://github.com/DaniPoletto/nlw-eSports/blob/main/get_discord_by_ad.jpg)
 
 ## Criar anúncio
 
